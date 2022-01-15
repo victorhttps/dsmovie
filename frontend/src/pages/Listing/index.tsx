@@ -24,7 +24,6 @@ useEffect(() => {
   axios.get(`${BASE_URL}/movies?size=12&page=${pageNumber}&sort=title`)
   .then(reponse => {
     const data = reponse.data as MoviePage;
-    console.log(data);
     setPage(data);
   });
 }, [pageNumber])

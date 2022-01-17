@@ -1,0 +1,13 @@
+footer {
+  height: 60px;
+  background-color: var(--color-primary);
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+
+.dsmovie-footer-content {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
